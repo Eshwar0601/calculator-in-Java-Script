@@ -1,0 +1,51 @@
+body {
+    background-color:black;]
+   
+}
+
+
+h1 {
+    text-align: center;
+    color:gold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.textView {
+    margin-left:48px;
+    margin-right:80px;
+    margin-top:80px;
+    margin-bottom:20px;
+    
+    
+}
+
+.press {
+    margin-left: 6px;
+    height: 40px;
+    width: 70px;
+    border-radius: 30px;
+    background-color:royalblue;
+    color:black;
+    transition-property: color;
+    transition-duration: 2s;
+    
+}
+
+.press.hover {
+    color:red;
+}
+
+.firstRow {
+    margin-top:10px;
+    margin-left:48px;
+}
+
+.secondRow {
+    margin-top:10px;
+    margin-left:48px;
+}
+.thidRow {
+    margin-top:10px;
+    margin-left:48px;
+}
