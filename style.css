@@ -1,51 +1,35 @@
-body {
-    background-color:black;]
-   
-}
-
-
-h1 {
-    text-align: center;
-    color:gold;
-    padding: 0px;
-    margin: 0px;
-}
 
 .textView {
-    margin-left:48px;
+    margin-left:320px;
     margin-right:80px;
-    margin-top:80px;
-    margin-bottom:20px;
-    
-    
+    margin-top:120px;
+    margin-bottom:10px;
+    width:238px;
+    height:60px;  
+    font-size: 20px;
+    border:2px solid red;
+    border-radius:20%;
+
 }
 
 .press {
     margin-left: 6px;
-    height: 40px;
-    width: 70px;
-    border-radius: 30px;
-    background-color:royalblue;
+    height: 50px;
+    width: 50px;
+    border:2px solid brown;
+    border-radius: 50%;
+    background-color:#F8EFBA;
     color:black;
-    transition-property: color;
-    transition-duration: 2s;
-    
+    font-size: 18px;
+    transition:width 2s;
 }
 
 .press.hover {
-    color:red;
+    width:70px;
 }
 
-.firstRow {
+.firstRow , .secondRow , .thirdRow ,.fourthRow {
     margin-top:10px;
-    margin-left:48px;
+    margin-left:320px;
 }
 
-.secondRow {
-    margin-top:10px;
-    margin-left:48px;
-}
-.thidRow {
-    margin-top:10px;
-    margin-left:48px;
-}
